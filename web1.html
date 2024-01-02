@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="form">
+        <h2>Registration Page</h2>
+        <form action="submit_registration.php" method="POST">
+            <div class="input-container">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <div class="input-container">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-container">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-container">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <!-- Add more country options here -->
+                </select>
+            </div>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+
+</html>

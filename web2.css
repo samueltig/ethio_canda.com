@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://media.gettyimages.com/id/559693791/photo/quebec-city.jpg?s=612x612&w=0&k=20&c=EPhol5GLjFeo1NExNyY7j6YuOR2N1ucX98TzOh1jpfE=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form {
+    background-color: transparent;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
